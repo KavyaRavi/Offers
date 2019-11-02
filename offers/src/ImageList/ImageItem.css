@@ -6,6 +6,7 @@
     margin: 8px;
     text-align: center;
     background-image: linear-gradient(to bottom, white, #eee);
+    height: 300px;
 }
 
 .LogoItem img {
