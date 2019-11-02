@@ -1,6 +1,5 @@
 body {
     height: 760px;
-    overflow: hidden;
     margin: 0;
     background: url("./banner.jpg") no-repeat;
     background-size: cover;
