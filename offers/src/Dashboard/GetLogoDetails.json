@@ -1,0 +1,341 @@
+{
+    "logoList": [
+        {
+            "logoImage": "/logos/ratnadeep-logo.png",
+            "category": "Home",
+            "vendor": "Ratnadeep Supermarket",
+            "offerFirstHeading": "Get up to",
+            "offerMainHeading": "₹50",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "at Ratnadeep Supermarket outlets"
+        }, {
+            "logoImage": "/logos/kfc-logo.png",
+            "category": "Eatery",
+            "vendor": "KFC",
+            "offerFirstHeading": "Win up to",
+            "offerMainHeading": "₹50",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "on 1 transaction every week at KFC"
+        }, {
+            "logoImage": "/logos/apollo-pharmacy.png",
+            "category": "Hospital",
+            "vendor": "Apollo Pharmacy",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹50",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "on 1 transaction at Apollo Pharmacy"
+        }, {
+            "logoImage": "/logos/croma-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/ccd-logo.png",
+            "category": "Eatery",
+            "vendor": "CCD",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹100",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "On 1 transaction every week at Cafe Coffee Day outlets"
+        }, {
+            "logoImage": "/logos/mother-diary-logo.png",
+            "category": "Home",
+            "vendor": "Mother Dairy",
+            "offerFirstHeading": "Flat",
+            "offerMainHeading": "₹5",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "On 2 transactions at Mother Dairy outlets"
+        }, {
+            "logoImage": "/logos/smartE-logo.png",
+            "category": "Gadgets",
+            "vendor": "SmartE",
+            "offerFirstHeading": "Win up to",
+            "offerMainHeading": "₹15",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "On 1 SmartE transaction every day"
+        }, {
+            "logoImage": "/logos/safal-logo.png",
+            "category": "Home",
+            "vendor": "Safal",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹50",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "on 1 transaction every month at Safal outlets"
+        }, {
+            "logoImage": "/logos/decathlon-logo.png",
+            "category": "Shopping",
+            "vendor": "Decathlon",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹100",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "On 1 transaction at Decathlon stores in Karnataka"
+        }, {
+            "logoImage": "/logos/tiny-mart-logo.png",
+            "category": "Home",
+            "vendor": "Tiny Mart",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹25",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "On 1st ever transaction at TinyMart Vending Machines"
+        }, {
+            "logoImage": "/logos/hpcl-logo.png",
+            "category": "Home",
+            "vendor": "HPCL",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹100",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "On 1 fuel bill at HPCL outlets"
+        }, {
+            "logoImage": "/logos/hpcl-logo.png",
+            "category": "Home",
+            "vendor": "HPCL",
+            "offerFirstHeading": "Flat",
+            "offerMainHeading": "₹10",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "On 3 fuel bills every month at HPCL pumps"
+        }, {
+            "logoImage": "/logos/more-logo.png",
+            "category": "Home",
+            "vendor": "More",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹50",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "On 1 More Supermarket transaction"
+        }, {
+            "logoImage": "/logos/bharat-petroleum-logo.png",
+            "category": "Home",
+            "vendor": "Bharat Petroleum",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹100",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "On 1 BPCL bill"
+        }, {
+            "logoImage": "/logos/bar-stock-logo.png",
+            "category": "Eatery",
+            "vendor": "Bar Stock Exchange",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹200",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "On 1 transaction at The Bar Stock Exchange outlets"
+        }, {
+            "logoImage": "/logos/perpule-logo.png",
+            "category": "Home",
+            "vendor": "Perpule",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹25",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "On 1st transaction every week"
+        }, {
+            "logoImage": "/logos/more-logo.png",
+            "category": "Home",
+            "vendor": "More",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹75",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "on 1 transaction at More Hypermarket outlets"
+        }, {
+            "logoImage": "/logos/indian-oil-logo.png",
+            "category": "Home",
+            "vendor": "Indian Oil",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹125",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "on 1 IOCL bill"
+        }, {
+            "logoImage": "/logos/more-logo.png",
+            "category": "Home",
+            "vendor": "More",
+            "offerFirstHeading": "Flat",
+            "offerMainHeading": "₹20",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "on 1 More Supermarket transaction"
+        }, {
+            "logoImage": "/logos/bharat-petroleum-logo.png",
+            "category": "Home",
+            "vendor": "Bharat Petroleum",
+            "offerFirstHeading": "Win up to",
+            "offerMainHeading": "₹100",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "on 3 BPCL bills every month"
+        }, {
+            "logoImage": "/logos/star-bazaar-logo.png",
+            "category": "Home",
+            "vendor": "Star Bazaar",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹50",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "on 1 Star Bazaar transaction every month"
+        }, {
+            "logoImage": "/logos/indian-oil-logo.png",
+            "category": "Home",
+            "vendor": "Indian Oil",
+            "offerFirstHeading": "Win up to",
+            "offerMainHeading": "₹125",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "on 3 IOCL bills every month"
+        }, {
+            "logoImage": "/logos/indian-oil-logo.png",
+            "category": "Home",
+            "vendor": "Indian Oil",
+            "offerFirstHeading": "Get",
+            "offerMainHeading": "5%",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/behrouz-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/box8-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/Coolwinks-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/eat-fit-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/faasos-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/firangi-bake-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/freshmenu-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/goibibo-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/irctc-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/m.o.d-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/mmt-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        } , {
+            "logoImage": "/logos/nostragamues-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/ola-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/ovenstory-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/oyo-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/redbus-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/thegoodbowl-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/zoomin-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }, {
+            "logoImage": "/logos/redbus-logo.png",
+            "category": "Gadgets",
+            "vendor": "Croma",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "Every Friday at Croma outlets"
+        }
+    ]
+}
