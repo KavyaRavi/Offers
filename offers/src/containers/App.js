@@ -1,6 +1,7 @@
 import React from 'react';
 import Login from '../Login/Login';
 import Dashboard from '../Dashboard/Dashboard';
+import './App.css';
 
 class App extends React.Component {
 
@@ -31,7 +32,7 @@ class App extends React.Component {
         }
 
         return (
-            <div>
+            <div className='App'>
                 {login}
                 {dashboard}
             </div>
