@@ -32,7 +32,6 @@ class App extends React.Component {
 
         return (
             <div>
-                Hello !!!
                 {login}
                 {dashboard}
             </div>
