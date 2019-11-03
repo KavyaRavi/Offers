@@ -185,157 +185,229 @@
             "offerLastHeading": "Cashback*",
             "offerTitle": "Every Friday at Croma outlets"
         }, {
-            "logoImage": "/logos/behrouz-logo.png",
-            "category": "Gadgets",
-            "vendor": "Croma",
-            "offerFirstHeading": "Up to",
-            "offerMainHeading": "₹500",
+            "logoImage": "/logos/hpcl-logo.png",
+            "category": "Home",
+            "vendor": "HPCL",
+            "offerFirstHeading": "Win up to",
+            "offerMainHeading": "₹100",
             "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
+            "offerTitle": "On 3 fuel bills every month at HPCL pumps"
         }, {
-            "logoImage": "/logos/box8-logo.png",
-            "category": "Gadgets",
-            "vendor": "Croma",
-            "offerFirstHeading": "Up to",
-            "offerMainHeading": "₹500",
+            "logoImage": "/logos/bharat-petroleum-logo.png",
+            "category": "Home",
+            "vendor": "Bharat Petroleum",
+            "offerFirstHeading": "Flat",
+            "offerMainHeading": "₹10",
             "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
-        }, {
-            "logoImage": "/logos/Coolwinks-logo.png",
-            "category": "Gadgets",
-            "vendor": "Croma",
-            "offerFirstHeading": "Up to",
-            "offerMainHeading": "₹500",
-            "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
-        }, {
-            "logoImage": "/logos/eat-fit-logo.png",
-            "category": "Gadgets",
-            "vendor": "Croma",
-            "offerFirstHeading": "Up to",
-            "offerMainHeading": "₹500",
-            "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
-        }, {
-            "logoImage": "/logos/faasos-logo.png",
-            "category": "Gadgets",
-            "vendor": "Croma",
-            "offerFirstHeading": "Up to",
-            "offerMainHeading": "₹500",
-            "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
-        }, {
-            "logoImage": "/logos/firangi-bake-logo.png",
-            "category": "Gadgets",
-            "vendor": "Croma",
-            "offerFirstHeading": "Up to",
-            "offerMainHeading": "₹500",
-            "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
-        }, {
-            "logoImage": "/logos/freshmenu-logo.png",
-            "category": "Gadgets",
-            "vendor": "Croma",
-            "offerFirstHeading": "Up to",
-            "offerMainHeading": "₹500",
-            "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
-        }, {
-            "logoImage": "/logos/goibibo-logo.png",
-            "category": "Gadgets",
-            "vendor": "Croma",
-            "offerFirstHeading": "Up to",
-            "offerMainHeading": "₹500",
-            "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
-        }, {
-            "logoImage": "/logos/irctc-logo.png",
-            "category": "Gadgets",
-            "vendor": "Croma",
-            "offerFirstHeading": "Up to",
-            "offerMainHeading": "₹500",
-            "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
+            "offerTitle": "on 3 BPCL bills every month"
         }, {
             "logoImage": "/logos/m.o.d-logo.png",
-            "category": "Gadgets",
-            "vendor": "Croma",
+            "category": "Eatery",
+            "vendor": "M.O.D",
             "offerFirstHeading": "Up to",
-            "offerMainHeading": "₹500",
+            "offerMainHeading": "₹50",
             "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
+            "offerTitle": "On 2 Mad Over Donuts transactions"
         }, {
-            "logoImage": "/logos/mmt-logo.png",
+            "logoImage": "/logos/apollo-pharmacy.png",
             "category": "Gadgets",
             "vendor": "Croma",
-            "offerFirstHeading": "Up to",
-            "offerMainHeading": "₹500",
+            "offerFirstHeading": "Flat",
+            "offerMainHeading": "₹20",
             "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
-        } , {
+            "offerTitle": "On 1 Apollo Pharmacy transaction via PhonePe"
+        }, {
             "logoImage": "/logos/nostragamues-logo.png",
             "category": "Gadgets",
-            "vendor": "Croma",
+            "vendor": "Nostragamues",
             "offerFirstHeading": "Up to",
-            "offerMainHeading": "₹500",
+            "offerMainHeading": "₹1000",
             "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
-        }, {
-            "logoImage": "/logos/ola-logo.png",
-            "category": "Gadgets",
-            "vendor": "Croma",
-            "offerFirstHeading": "Up to",
-            "offerMainHeading": "₹500",
-            "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
-        }, {
-            "logoImage": "/logos/ovenstory-logo.png",
-            "category": "Gadgets",
-            "vendor": "Croma",
-            "offerFirstHeading": "Up to",
-            "offerMainHeading": "₹500",
-            "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
-        }, {
-            "logoImage": "/logos/oyo-logo.png",
-            "category": "Gadgets",
-            "vendor": "Croma",
-            "offerFirstHeading": "Up to",
-            "offerMainHeading": "₹500",
-            "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
-        }, {
-            "logoImage": "/logos/redbus-logo.png",
-            "category": "Gadgets",
-            "vendor": "Croma",
-            "offerFirstHeading": "Up to",
-            "offerMainHeading": "₹500",
-            "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
-        }, {
-            "logoImage": "/logos/thegoodbowl-logo.png",
-            "category": "Gadgets",
-            "vendor": "Croma",
-            "offerFirstHeading": "Up to",
-            "offerMainHeading": "₹500",
-            "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
+            "offerTitle": "On your 1st deposit on the Nostragamues app"
         }, {
             "logoImage": "/logos/zoomin-logo.png",
-            "category": "Gadgets",
-            "vendor": "Croma",
-            "offerFirstHeading": "Up to",
-            "offerMainHeading": "₹500",
-            "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
+            "category": "Home",
+            "vendor": "ZoomIn",
+            "offerFirstHeading": "Set of 24, 4\"",
+            "offerMainHeading": "Square Prints",
+            "offerLastHeading": "FREE*",
+            "offerTitle": "worth ₹149 on Zoomin platforms"
         }, {
-            "logoImage": "/logos/redbus-logo.png",
+            "logoImage": "/logos/croma-logo.png",
             "category": "Gadgets",
             "vendor": "Croma",
             "offerFirstHeading": "Up to",
             "offerMainHeading": "₹500",
             "offerLastHeading": "Cashback*",
-            "offerTitle": "Every Friday at Croma outlets"
+            "offerTitle": "Every Friday at Croma website"
+        }, {
+            "logoImage": "/logos/box8-logo.png",
+            "category": "Eatery",
+            "vendor": "Box8",
+            "offerFirstHeading": "",
+            "offerMainHeading": "50%",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "On Box8 orders on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/eat-fit-logo.png",
+            "category": "Eatery",
+            "vendor": "Eat Fit",
+            "offerFirstHeading": "Get",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Cashback* + 40% Off*",
+            "offerTitle": "On Eat.fit orders on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/thegoodbowl-logo.png",
+            "category": "Eatery",
+            "vendor": "The Good Bowl",
+            "offerFirstHeading": "Get 50%",
+            "offerMainHeading": "Cashback*",
+            "offerLastHeading": "+ 40% Off*",
+            "offerTitle": "On The Good Bowl orders on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/ovenstory-logo.png",
+            "category": "Eatery",
+            "vendor": "Oven Story",
+            "offerFirstHeading": "",
+            "offerMainHeading": "50%",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "+ 50% Off* on Ovenstory on PhonePe Switch"
+        } , {
+            "logoImage": "/logos/redbus-logo.png",
+            "category": "Travel",
+            "vendor": "RedBus",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹200",
+            "offerLastHeading": "Off*",
+            "offerTitle": "+ redBus cashback on bus booking on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/mmt-logo.png",
+            "category": "Travel",
+            "vendor": "MakeMyTrip",
+            "offerFirstHeading": "Flat",
+            "offerMainHeading": "₹500",
+            "offerLastHeading": "Off*",
+            "offerTitle": "On MakeMyTrip flights on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/mmt-logo.png",
+            "category": "Travel",
+            "vendor": "MakeMyTrip",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "50%",
+            "offerLastHeading": "Off*",
+            "offerTitle": "On hotel bookings on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/oyo-logo.png",
+            "category": "Travel",
+            "vendor": "OYO",
+            "offerFirstHeading": "Flat",
+            "offerMainHeading": "35%",
+            "offerLastHeading": "Off*",
+            "offerTitle": "On OYO bookings on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/faasos-logo.png",
+            "category": "Eatery",
+            "vendor": "Faasos",
+            "offerFirstHeading": "Get 50%",
+            "offerMainHeading": "Cashback*",
+            "offerLastHeading": "+ 40% Off*",
+            "offerTitle": "On Faasos on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/ola-logo.png",
+            "category": "Travel",
+            "vendor": "OLA",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹75",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "On 5 Ola rides on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/behrouz-logo.png",
+            "category": "Eatery",
+            "vendor": "Behrouz",
+            "offerFirstHeading": "Flat",
+            "offerMainHeading": "₹100",
+            "offerLastHeading": "Off*",
+            "offerTitle": "+ 40% Cashback on your 1st ever order on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/freshmenu-logo.png",
+            "category": "Eatery",
+            "vendor": "Freshmenu",
+            "offerFirstHeading": "50% Cashback*",
+            "offerMainHeading": "+ 40%",
+            "offerLastHeading": "Off*",
+            "offerTitle": "On FreshMenu order on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/freshmenu-logo.png",
+            "category": "Eatery",
+            "vendor": "Freshmenu",
+            "offerFirstHeading": "50% Cashback*",
+            "offerMainHeading": "+ 40%",
+            "offerLastHeading": "Off*",
+            "offerTitle": "On FreshMenu order on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/goibibo-logo.png",
+            "category": "Travel",
+            "vendor": "Goibibo",
+            "offerFirstHeading": "Up to 50% Off*",
+            "offerMainHeading": "+ Flat 10%",
+            "offerLastHeading": "Extra Off*",
+            "offerTitle": "On Goibibo Hotels on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/Coolwinks-logo.png",
+            "category": "Home",
+            "vendor": "Coolwinks",
+            "offerFirstHeading": "50% Cashback*",
+            "offerMainHeading": "",
+            "offerLastHeading": "",
+            "offerTitle": "Upto ₹1,000 on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/goibibo-logo.png",
+            "category": "Travel",
+            "vendor": "GoIbibo",
+            "offerFirstHeading": "Up to",
+            "offerMainHeading": "₹10,000",
+            "offerLastHeading": "Off*",
+            "offerTitle": "On Goibibo Hotels on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/behrouz-logo.png",
+            "category": "Eatery",
+            "vendor": "Behrouz",
+            "offerFirstHeading": "Flat",
+            "offerMainHeading": "₹75",
+            "offerLastHeading": "Cashback*",
+            "offerTitle": "+ Flat ₹75 Off* on Behrouz on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/irctc-logo.png",
+            "category": "Travel",
+            "vendor": "IRCTC",
+            "offerFirstHeading": "Book trains with",
+            "offerMainHeading": "Zero extra",
+            "offerLastHeading": "charges",
+            "offerTitle": "On IRCTC on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/firangi-bake-logo.png",
+            "category": "Eatery",
+            "vendor": "Firangi Bake",
+            "offerFirstHeading": "Get",
+            "offerMainHeading": "30%",
+            "offerLastHeading": "Off*",
+            "offerTitle": "On every order on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/firangi-bake-logo.png",
+            "category": "Eatery",
+            "vendor": "Firangi Bake",
+            "offerFirstHeading": "Flat",
+            "offerMainHeading": "₹125",
+            "offerLastHeading": "Off*",
+            "offerTitle": "On Firangi Bake orders on PhonePe Switch"
+        }, {
+            "logoImage": "/logos/dominos-logo.png",
+            "category": "Eatery",
+            "vendor": "Dominos",
+            "offerFirstHeading": "50%",
+            "offerMainHeading": "Cashback*",
+            "offerLastHeading": "",
+            "offerTitle": "On Domino's on PhonePe Switch"
         }
     ]
 }

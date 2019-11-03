@@ -24,6 +24,7 @@ class App extends React.Component {
     }
 
     loginClickHandler = (e) => {
+        debugger;
         let didLogin = this.state.login;
         if (this.state.username !== '' || this.state.password !== '') {
             this.setState({
