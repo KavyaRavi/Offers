@@ -3,7 +3,7 @@ import './ImageItem.css';
 
 const ImageItem = (props) => {
     return (
-        <div className="LogoItem">
+        <div className="LogoItem" onClick={()=>{props.offerSelect(props.index)}}>
             <div>
                 <img src={process.env.PUBLIC_URL + props.logo.logoImage} alt={props.logo.vendor} />
             </div>

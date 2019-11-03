@@ -8,7 +8,7 @@ class Dashboard extends React.Component {
     render() {
         return (
             <div className="Dashboard">
-                <ImageList logos={data.logoList} />
+                <ImageList offerSelect={this.props.offerSelect} logos={data.logoList} />
             </div>
         )
     }

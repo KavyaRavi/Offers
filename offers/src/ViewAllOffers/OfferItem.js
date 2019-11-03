@@ -1,9 +1,9 @@
 import React from 'react';
 import './OfferItem.css';
 
-const OfferItem = ({offer}) => {
+const OfferItem = ({offer, offerSelect, index}) => {
     return (
-        <div className="row OfferItem">
+        <div className="row OfferItem" onClick={() => {offerSelect(index)}}>
             <div className="col-lg-4 col-md-6 col-sm-12">
                 <img src={process.env.PUBLIC_URL + offer.logoImage} />
             </div>

@@ -4,7 +4,7 @@ import './ViewAllOffers.css';
 
 const ViewAllOffers = (props) => {
     let offers = props.offerList.map((offer, index) => {
-        return <OfferItem offer={offer} key={index} />
+        return <OfferItem offer={offer} key={index} offerSelect={props.offerSelect} index={index} />
     });
 
     return (

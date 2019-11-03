@@ -1,0 +1,30 @@
+@media(max-width: 1536px) {
+    .OfferDetail {
+        margin: 2%;
+    }
+    .OfferDetail .DetailHeader img:first-child {
+        width: 40px;
+        height: auto;
+        cursor: pointer;
+    }
+    .OfferDetail .DetailHeader img:nth-child(2) {
+        width: 550px;
+        height: 150px;
+        margin-left: 25%;
+    }
+    .OfferDetail .DetailContent {
+        margin-top: 15px;
+        border: 1.5px solid #0075ff61;
+        padding: 16px;
+        border-radius: 10px;
+        height: 350px;
+        overflow: auto;
+    }
+    .OfferDetail .DetailContent h6 {
+        color: #aaa;
+        font-size: 15px;
+    }
+    .OfferDetail .DetailContent .OfferContent {
+        font-size: 13px;
+    }
+}

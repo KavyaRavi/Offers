@@ -7,6 +7,7 @@
     text-align: center;
     background-image: linear-gradient(to bottom, white, #eee);
     height: 370px;
+    cursor: pointer;
 }
 
 .LogoItem img {

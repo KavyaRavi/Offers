@@ -6,6 +6,8 @@
     "bootstrap": "^4.3.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-native": "^0.61.3",
+    "react-native-render-html": "^4.1.2",
     "react-scripts": "3.2.0",
     "save": "^2.4.0"
   },
