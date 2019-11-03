@@ -1,0 +1,7 @@
+@media(max-width: 1536px) {
+    .Dashboard {
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+}

@@ -1,19 +1,45 @@
 import React from 'react';
-import Login from '../Login/Login';
-import Dashboard from '../Dashboard/Dashboard';
+import FirstPage from '../BaseContainers/FirstPage';
 import './App.css';
+import LandingPage from '../BaseContainers/LandingPage';
 
 class App extends React.Component {
 
     state = {
-        login: false
+        login: false,
+        username: '',
+        password: ''
     }
 
-    loginClickHandler = () => {
-        let didLogin = this.state.login;
+    setUsername = (username) => {
         this.setState({
-            login: !didLogin
-        })
+            username: username.target.value
+        });
+    }
+
+    setPassword = (pwd) => {
+        this.setState({
+            password: pwd.target.value
+        });
+    }
+
+    loginClickHandler = (e) => {
+        let didLogin = this.state.login;
+        if (this.state.username !== '' || this.state.password !== '') {
+            this.setState({
+                login: !didLogin
+            })
+        } else {
+            e.preventDefault();
+            alert("Please enter mandatory fields");
+        }
+    }
+
+    logoutClickHandler = () => {
+        let didLogout = this.state.login;
+        this.setState({
+            login: !didLogout
+        });
     }
 
     render() {
@@ -23,11 +49,16 @@ class App extends React.Component {
 
         if (!this.state.login) {
             login = (
-                <Login click={this.loginClickHandler} />
+                <div className="FirstPage">
+                    <FirstPage 
+                    click={this.loginClickHandler}
+                    usernameChange={this.setUsername}
+                    pwdChange={this.setPassword} />
+                </div>
             );
         } else {
             dashboard = (
-                <Dashboard />
+                <LandingPage click={this.logoutClickHandler} />
             )
         }
 

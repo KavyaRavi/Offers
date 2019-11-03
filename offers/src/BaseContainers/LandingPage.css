@@ -1,0 +1,31 @@
+
+@media (max-width: 1536px) {
+    .LandingPage {
+        background-color: #fff;
+        height: 834px;
+    }
+    .buttonDiv {
+        padding-right: 5%;
+        background-color: #eee;
+        line-height: 7rem;
+    }
+    .buttonDiv h3 {
+        display: inline;
+        padding-left: 45%;
+        font-size: 35px;
+    }
+    .buttonDiv img {
+        float: right;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        margin-top: 38px;
+    }
+
+    .LandingPage a {
+        float: right;
+        padding-right: 5%;
+        padding-top: 2%;
+        text-decoration: underline;
+    }
+}

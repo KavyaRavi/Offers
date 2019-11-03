@@ -1,0 +1,30 @@
+@media(max-width: 1536px) {
+    .OfferItem {
+        border: 1px solid #eee;
+        margin: 2%;
+        padding: 2%;
+        box-shadow: 0 2px 3px #ccc;
+        position: relative;
+        cursor: pointer;
+    }
+    .OfferItem img {
+        width: 50%;
+        height: auto;
+    }
+    .OfferItem .terms {
+        position: absolute;
+        float: right;
+        right: 10px;
+        top: 5px;
+        color: #999797;
+        font-size: 0.8rem;
+    }
+
+    .OfferItem .content p {
+        color: darkgray;
+        font-size: 1.2rem;
+    }
+    .OfferItem .content h3 {
+        font-size: 2rem;
+    }
+}

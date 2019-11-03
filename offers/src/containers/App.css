@@ -1,8 +1,10 @@
-.App {
-    width: 75%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: 25px;
-    padding-top: 218px;
+@media(min-width: 1014px) {
+    .App {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .FirstPage {
+        padding-left: 15px;
+    }
 }

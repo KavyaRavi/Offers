@@ -4,23 +4,29 @@ import './Login.css';
 const Login = (props) => {
 
     return (
-        <div className="Login">
-            <div className="col">
-                <div className="block">
-                    <div className="block-header">
+        <div className="row Login">
+            <div className="col-md-9 col-lg-6 col-sm-12">
+                <div className="card">
+                    <div className="card-header">
                         <h4>Login</h4>
                     </div>
-                    <div className='block-body'>
+                    <div className='card-body'>
                         <form>
                             <div className='form-group'>
-                                <label>Username : </label>
-                                <input type="text" className="form-control" />
+                                <label>Username<span className="required">*</span></label>
+                                <input 
+                                type="email" 
+                                className="form-control"
+                                onBlur={(e) => {props.usernameChange(e)}} />
                             </div>
                             <div className="form-group">
-                                <label>Password : </label>
-                                <input type="password" className="form-control" />
+                                <label>Password<span className="required">*</span></label>
+                                <input 
+                                type="password" 
+                                className="form-control"
+                                onBlur={(e) => {props.pwdChange(e)}} />
                             </div>
-                            <button className="btn" onClick={props.click}>Login</button>
+                            <button className="btn btn-primary" onClick={(e) => {props.click(e)}}>Login</button>
                         </form>
                     </div>
                 </div>
