@@ -32,11 +32,18 @@
 
     .LandingPage .buttonDiv span {
         float: right;
-        font-size: 22px;
-        margin-top: 10px;
-        margin-left: -10px;
+        font-size: 15px;
+        margin-top: 50px;
+        margin-left: -15px;
         padding: 0;
         border-radius: 50%;
+        display: inline;
+        line-height: 2rem;
+        background-color: #d03232;
+        width: 2rem;
+        text-align: center;
+        color: white;
+        font-weight: bold;
     }
 
     .LandingPage a {
