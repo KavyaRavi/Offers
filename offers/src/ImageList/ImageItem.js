@@ -2,9 +2,11 @@ import React from 'react';
 import './ImageItem.css';
 
 const ImageItem = (props) => {
-    let imageName = 'like.png';
+    let imageName;
     if (props.logo.likedOffer) {
         imageName = 'liked.png';
+    } else {
+        imageName = 'like.png';
     }
 
     const likeClick = (e) => {
