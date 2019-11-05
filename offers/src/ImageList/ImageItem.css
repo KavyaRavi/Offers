@@ -8,6 +8,7 @@
     background-image: linear-gradient(to bottom, white, #eee);
     height: 370px;
     cursor: pointer;
+    position: relative;
 }
 
 .LogoItem img {
@@ -42,4 +43,12 @@
 .LogoItem p {
     font-size: 13px;
     color: #888489;
+}
+
+.LogoItem .likeButton {
+    width: 35px;
+    height: auto;
+    right: -15px;
+    position: absolute;
+    top: 5px;
 }

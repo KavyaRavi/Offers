@@ -1,7 +1,4 @@
 @media(max-width: 1536px) {
-    .ViewAllOffers {
-
-    }
     .ViewAllOffers .backButton img {
         width: 40px;
         height: auto;
@@ -14,5 +11,16 @@
         padding-left: 20%;
         padding-right: 20%;
         padding-bottom: 20%;
+    }
+    .ViewAllOffers .OfferList .ContainerDiv {
+        position: relative;
+    }
+    .ViewAllOffers .OfferList .ContainerDiv .likeButton {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: -12px;
+        top: 5px;
+        cursor: pointer;
     }
 }

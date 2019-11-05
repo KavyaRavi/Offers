@@ -4,7 +4,24 @@ import './ViewAllOffers.css';
 
 const ViewAllOffers = (props) => {
     let offers = props.offerList.map((offer, index) => {
-        return <OfferItem offer={offer} key={index} offerSelect={props.offerSelect} index={index} />
+
+        let imageName = 'like.png';
+        if (offer.likedOffer) {
+            imageName="liked.png";
+        }
+
+        const likeOffer = (e) => {
+            e.preventDefault();
+            let likeStatus = offer.likedOffer;
+            props.likedOffer(index, !likeStatus);
+        }
+
+        return (
+            <div className="ContainerDiv">
+                <img likedOffer={(e) => {likeOffer(e)}} className="likeButton" key={index} src={process.env.PUBLIC_URL + '/Others/' + imageName} />
+                <OfferItem offer={offer} key={index} offerSelect={props.offerSelect} index={index} />
+            </div>
+        )
     });
 
     return (

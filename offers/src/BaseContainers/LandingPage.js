@@ -9,11 +9,18 @@ class LandingPage extends React.Component {
     state = {
         viewAll: false,
         viewOffer: false,
-        selectedOffer: {}
+        selectedOffer: {},
+        offers: []
+    }
+
+    componentDidMount() {
+        let offers = data.logoList;
+        this.setState({
+            offers
+        })
     }
 
     setViewAllFlag = () => {
-        console.log("inside")
         let viewAll = this.state.viewAll;
         this.setState({
             viewAll: !viewAll
@@ -22,7 +29,7 @@ class LandingPage extends React.Component {
 
     offerSelect = (index) => {
         console.log(index);
-        let selectedOffer = data.logoList[index];
+        let selectedOffer = this.state.offers[index];
         let viewOffer = !this.state.viewOffer
         this.setState({
             selectedOffer,
@@ -38,6 +45,15 @@ class LandingPage extends React.Component {
         })
     }
 
+    likedOffer = (index, status) => {
+        console.log("inside dashboard", index, status);
+        let offersList = this.state.offers;
+        offersList[index].likedOffer = status;
+        this.setState({
+            offers: offersList
+        });
+    }
+
     render() {
         let viewInit = null;
         let viewAllOffers = null;
@@ -47,13 +63,13 @@ class LandingPage extends React.Component {
             viewInit = (
                 <div>
                     <a href='#' onClick={this.setViewAllFlag}>View All</a>
-                    <Dashboard offerSelect={this.offerSelect} />
+                    <Dashboard likedOffer={this.likedOffer} offerSelect={this.offerSelect} offers={this.state.offers} />
                 </div>
             )
         } else if(this.state.viewAll && !this.state.viewOffer) {
             viewAllOffers = (
                 <div>
-                    <ViewAllOffers click={this.setViewAllFlag} offerList={data.logoList} offerSelect={this.offerSelect} />
+                    <ViewAllOffers click={this.setViewAllFlag} likedOffer={this.likedOffer} offerList={this.state.offers} offerSelect={this.offerSelect} />
                 </div>
             )
         } else {

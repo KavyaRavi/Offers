@@ -1,11 +1,14 @@
 @media(max-width: 1536px) {
     .OfferItem {
         border: 1px solid #eee;
-        margin: 2%;
         padding: 2%;
         box-shadow: 0 2px 3px #ccc;
         position: relative;
         cursor: pointer;
+        margin-top: 2%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        margin-left: 3%;
     }
     .OfferItem img {
         width: 50%;
