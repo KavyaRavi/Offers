@@ -4,22 +4,39 @@
         background-color: #fff;
         height: 834px;
     }
-    .buttonDiv {
+    .LandingPage .buttonDiv {
         padding-right: 5%;
         background-color: #eee;
         line-height: 7rem;
     }
-    .buttonDiv h3 {
+    .LandingPage .buttonDiv h3 {
         display: inline;
         padding-left: 45%;
         font-size: 35px;
     }
-    .buttonDiv img {
-        float: right;
-        width: 25px;
-        height: 25px;
+    .LandingPage .buttonDiv img {
+        width: 30px;
+        height: 30px;
         cursor: pointer;
         margin-top: 38px;
+    }
+
+    .LandingPage .buttonDiv .cart {
+        float: right;
+    }
+
+    .LandingPage .buttonDiv .logout {
+        margin-right: 25px;
+        float: right;
+    }
+
+    .LandingPage .buttonDiv span {
+        float: right;
+        font-size: 22px;
+        margin-top: 10px;
+        margin-left: -10px;
+        padding: 0;
+        border-radius: 50%;
     }
 
     .LandingPage a {

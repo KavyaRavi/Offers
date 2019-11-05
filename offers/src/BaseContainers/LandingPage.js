@@ -10,7 +10,8 @@ class LandingPage extends React.Component {
         viewAll: false,
         viewOffer: false,
         selectedOffer: {},
-        offers: []
+        offers: [],
+        likedOffers: []
     }
 
     componentDidMount() {
@@ -46,12 +47,39 @@ class LandingPage extends React.Component {
     }
 
     likedOffer = (index, status) => {
-        console.log("inside dashboard", index, status);
         let offersList = this.state.offers;
         offersList[index].likedOffer = status;
+        let likedOffers = this.state.likedOffers;
+        if (likedOffers.length > 0) {
+            if (status) {
+                let i = this.checkArray(likedOffers, offersList[index]);
+                if (i == -1) 
+                    likedOffers.push(offersList[index]);
+            } else {
+                let i = this.checkArray(likedOffers, offersList[index]);
+                if (i !== -1)
+                    likedOffers.splice(i, 1);
+            }
+        } else {
+            likedOffers.push(offersList[index]);
+        }
+        console.log(likedOffers);
         this.setState({
-            offers: offersList
+            offers: offersList,
+            likedOffers
         });
+    }
+
+    checkArray = (arr, selectedOffer) => {
+        let ind = -1;
+        for(let i = 0; i < arr.length; i++) {
+            if (arr[i].offerId == selectedOffer.offerId)  {
+                ind = i;
+                break;
+            }
+            ind = -1;
+        }
+        return ind;
     }
 
     render() {
@@ -83,7 +111,9 @@ class LandingPage extends React.Component {
             <div className="LandingPage">
                 <div className="buttonDiv">
                     <h3>Exciting Offers!!!</h3>
-                    <img src={process.env.PUBLIC_URL + '/logout.png'} onClick={this.props.click} alt="Logout" />
+                    <span>{this.state.likedOffers.length}</span>
+                    <img src={process.env.PUBLIC_URL + '/Others/cart.png'} alt="Cart" className="cart" />
+                    <img src={process.env.PUBLIC_URL + '/logout.png'} className="logout" onClick={this.props.click} alt="Logout" />
                 </div>
                 {viewInit}
                 {viewAllOffers}

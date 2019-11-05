@@ -18,7 +18,7 @@ const ViewAllOffers = (props) => {
 
         return (
             <div className="ContainerDiv">
-                <img likedOffer={(e) => {likeOffer(e)}} className="likeButton" key={index} src={process.env.PUBLIC_URL + '/Others/' + imageName} />
+                <img onClick={(e) => {likeOffer(e)}} className="likeButton" key={index + 1} src={process.env.PUBLIC_URL + '/Others/' + imageName} />
                 <OfferItem offer={offer} key={index} offerSelect={props.offerSelect} index={index} />
             </div>
         )
