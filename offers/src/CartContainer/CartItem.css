@@ -1,0 +1,33 @@
+@media(max-width: 1536px) {
+    .CartItem {
+        border: 1px solid #eee;
+        padding: 2%;
+        box-shadow: 0 2px 3px #ccc;
+        position: relative;
+        cursor: pointer;
+        margin-top: 2%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        margin-left: 3%;
+    }
+    .CartItem img {
+        width: 50%;
+        height: auto;
+    }
+    .CartItem .terms {
+        position: absolute;
+        float: right;
+        right: 10px;
+        top: 5px;
+        color: #999797;
+        font-size: 0.8rem;
+    }
+
+    .CartItem .content p {
+        color: darkgray;
+        font-size: 1.2rem;
+    }
+    .CartItem .content h3 {
+        font-size: 2rem;
+    }
+}

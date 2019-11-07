@@ -4,6 +4,7 @@ import './LandingPage.css';
 import data from '../Dashboard/GetLogoDetails.json';
 import ViewAllOffers from '../ViewAllOffers/ViewAllOffers';
 import OfferDetail from '../ViewAllOffers/OfferDetail';
+import CartList from '../CartContainer/CartList';
 
 class LandingPage extends React.Component {
     state = {
@@ -11,7 +12,8 @@ class LandingPage extends React.Component {
         viewOffer: false,
         selectedOffer: {},
         offers: [],
-        likedOffers: []
+        likedOffers: [],
+        cartClick: false
     }
 
     componentDidMount() {
@@ -82,22 +84,36 @@ class LandingPage extends React.Component {
         return ind;
     }
 
+    cartContainer = () => {
+        let cartClick = this.state.cartClick;
+        this.setState({
+            cartClick: !cartClick
+        });
+    }
+
     render() {
         let viewInit = null;
         let viewAllOffers = null;
         let offerDetail = null;
+        let cartDetail = null;
 
-        if (!this.state.viewAll && !this.state.viewOffer) {
+        if (!this.state.viewAll && !this.state.viewOffer && !this.state.cartClick) {
             viewInit = (
                 <div>
                     <a href='#' onClick={this.setViewAllFlag}>View All</a>
                     <Dashboard likedOffer={this.likedOffer} offerSelect={this.offerSelect} offers={this.state.offers} />
                 </div>
             )
-        } else if(this.state.viewAll && !this.state.viewOffer) {
+        } else if(this.state.viewAll && !this.state.viewOffer && !this.state.cartClick) {
             viewAllOffers = (
                 <div>
                     <ViewAllOffers click={this.setViewAllFlag} likedOffer={this.likedOffer} offerList={this.state.offers} offerSelect={this.offerSelect} />
+                </div>
+            )
+        } else if (this.state.cartClick) {
+            cartDetail = (
+                <div>
+                    <CartList likedOffers={this.state.likedOffers} />
                 </div>
             )
         } else {
@@ -112,12 +128,13 @@ class LandingPage extends React.Component {
                 <div className="buttonDiv">
                     <h3>Exciting Offers!!!</h3>
                     <span>{this.state.likedOffers.length}</span>
-                    <img src={process.env.PUBLIC_URL + '/Others/cart.png'} alt="Cart" className="cart" />
+                    <img src={process.env.PUBLIC_URL + '/Others/cart.png'} alt="Cart" className="cart" onClick={this.cartContainer} />
                     <img src={process.env.PUBLIC_URL + '/logout.png'} className="logout" onClick={this.props.click} alt="Logout" />
                 </div>
                 {viewInit}
                 {viewAllOffers}
                 {offerDetail}
+                {cartDetail}
             </div>
         )
     }
