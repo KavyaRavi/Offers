@@ -11,8 +11,8 @@
         margin-left: 3%;
     }
     .CartItem img {
-        width: 50%;
-        height: auto;
+        width: 75%;
+        height: 150px;
     }
     .CartItem .terms {
         position: absolute;
@@ -37,5 +37,9 @@
         position: absolute;
         bottom: 10px;
         cursor: pointer;
+    }
+
+    .CartItem .shareContentDiv {
+        display: flex;
     }
 }

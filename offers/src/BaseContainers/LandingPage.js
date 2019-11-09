@@ -112,7 +112,7 @@ class LandingPage extends React.Component {
             )
         } else if (this.state.cartClick) {
             cartDetail = (
-                <div>
+                <div className="containerdiv">
                     <CartList likedOffers={this.state.likedOffers} />
                 </div>
             )
