@@ -30,4 +30,12 @@
     .CartItem .content h3 {
         font-size: 2rem;
     }
+
+    .CartItem .share-icon {
+        width: 30px;
+        right: 12px;
+        position: absolute;
+        bottom: 10px;
+        cursor: pointer;
+    }
 }
